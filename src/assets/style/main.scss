@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* HELPERS */
+
+.flex{
+    display: flex;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-r{
+    justify-content: right;
+}
+
+.flex-start {
+    justify-content: flex-start
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+.font-size-small {
+    font-size: 12px;
+}
+
+.opacity-54 {
+    opacity: .54;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
